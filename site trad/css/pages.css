@@ -1,0 +1,86 @@
+/*CSS dédié aux pages de villes*/
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  font-size: 16px;
+  overflow: auto;
+}
+/*background style*/
+.bg-styles {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*nom de la ville */
+.city-name {
+  position: fixed;
+  left: 100px;
+  top: 160px;
+  border-left: 5px solid white;
+  padding-left: 30px;
+}
+/*breve description de la ville */
+p {
+  display: block;
+  width: 400px;
+  text-align: justify;
+  font-size: 15px;
+  margin-left: 40px;
+  color: white;
+  margin-top: 30px;
+  border-right: 3px solid red;
+  padding-right: 20px;
+}
+/* contenu de la page*/
+.content {
+  position: absolute;
+  right: 200px;
+  top: 150px;
+  width: 32rem;
+  min-height: 100vh;
+  padding: 40px;
+  text-align: justify;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.youtube {
+  position: fixed;
+  left: 6rem;
+  bottom: 2rem;
+}
+
+.contributors-section {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.contributors-section h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+}
+
+.contributors-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.contributors-list li {
+  padding: 6px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
