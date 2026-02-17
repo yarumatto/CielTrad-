@@ -1,4 +1,4 @@
-/*CSS dédié aux pages de villes*/
+
 *,
 *::after,
 *::before {
@@ -12,14 +12,12 @@ body {
   font-size: 16px;
   overflow: auto;
 }
-/*background style*/
 .bg-styles {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-/*nom de la ville */
 .city-name {
   position: fixed;
   left: 100px;
@@ -27,7 +25,6 @@ body {
   border-left: 5px solid white;
   padding-left: 30px;
 }
-/*breve description de la ville */
 p {
   display: block;
   width: 400px;
@@ -39,7 +36,6 @@ p {
   border-right: 3px solid red;
   padding-right: 20px;
 }
-/* contenu de la page*/
 .content {
   position: absolute;
   right: 200px;
@@ -83,4 +79,5 @@ p {
   font-size: 1rem;
   color: #555;
 }
+
 
