@@ -13,7 +13,8 @@ window.onload = function () {
   const main = document.getElementsByClassName("main-item");
   const secondary = document.getElementsByClassName("secondary");
   const display = document.getElementsByClassName("Bottom")
-  setTimeout(removeLoadingScreen, 100);
+  setTimeout(removeLoadingScreen, 1);
 
 };
+
 
