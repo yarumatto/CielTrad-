@@ -1,5 +1,4 @@
-/* '*' selectionne tous les éléments d'une page. 
-'before' and 'after' sont des pseudo-elements. */
+
 *,
 *::before,
 *::after {
@@ -7,46 +6,35 @@
   padding: 0;
 }
 
-/* body */
 
 body {
   margin: 0px auto;
   font-size: 16px;
 
-  /* utiliser flex box pour aligner les objets au centre du corps */
-
   flex-direction: column;
   align-items: center;
 
-  /* inserer la background image */
 
   background-image: url("../images/background.jpg");
   background-position: center;
-  /* background-size cover pour être sur que background-image couvrira entièrement */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh; /* vh = 1% de la hauteur de zone d'affichage */
-  overflow: hidden; /* ne pas voir ce qui dépasse */
+  height: 100vh; 
+  overflow: hidden;
 }
 
-/* helper class pour mettre les élmts comme flex pour s'adapter aux différentes taille d'écran */
 .flex {
   display: flex;
 }
 
-/* style pour la section bannière (logo) */
 .title {
   background-color: transparent;
   background-color: rgba(255, 255, 255);
-  /* 1 rem = font-size int du navigateur ; 
-  16px = 1rem ; utlise la taille de police 
-  utilisé par le système */
   padding: 0.3rem;
-  width: 100%; /* largeur */
+  width: 100%; 
   text-align: center;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1); 
-  /* box-shadow = arrière plan ombre */
 
   position: relative;
 
@@ -55,7 +43,6 @@ body {
   transition: height 0.1s linear;
 }
 
-/* helper class qui fera que l'élément occupera tout l'écran  */
 .overlap {
   z-index: 1;
   height: 100%;
@@ -65,17 +52,11 @@ body {
   height: 115px;
   width: 200px;
   
-  /* centrer l'élément de chargement */
   left: 50%;
   top: 50%;
-  /* transform, translatex déplace l'élément le long de l'axe des x et translateY le déplace le long de l'axe des y
-     -50 % signifie que l'élément se décalera de 50 % vers la droite et vers la gauche.
-
-  */
   transform: translateX(-50%) translateY(-50%);
 }
 
-/* style pour l'image de la bannière. Taille : 100px x auto. */
 .title > img {
   height: 100px;
   width: auto;
@@ -85,9 +66,6 @@ body {
   width: auto;
 }
 
-/*
-on aurait pu utiliser <hr> si pas besoin de style précis.
-*/
 .divider {
   height: 5px;
   border-radius: 50%;
@@ -96,12 +74,8 @@ on aurait pu utiliser <hr> si pas besoin de style précis.
   margin: 2rem 0;
 }
 
-/* bottom and bottom-more sont des helper classes qui placeront l'élmt au bottom du  screen. 
-Ici pour le section Social Media .
-*/
 .bottom {
   position: absolute;
-  /* top, bottom, left, right can be used only with element with positioning absolute or fixed */
   bottom: 8rem;
 }
 .bottom-more {
@@ -113,10 +87,6 @@ Ici pour le section Social Media .
   bottom: 2rem;
 }
 
-/*
-style pour les icônes du continent.
-main-item = icone continent.
-*/
 .main-item {
   display: inline-block;
   margin: 100px 70px;
@@ -128,7 +98,6 @@ main-item = icone continent.
   vertical-align: top;
 }
 
-/* qd la souris passe sur les continents, change la couleur en gris et souligne */
 
 .main-item:hover > span {
   color: #ccc;
@@ -136,7 +105,6 @@ main-item = icone continent.
   transition: all 0.1s linear;
 }
 
-/* secondary = class pour les icones de villes */
 .secondary {
   color: black;
   margin-top: 2rem;
@@ -147,30 +115,25 @@ main-item = icone continent.
   overflow: hidden;
 }
 
-/* secondary > span est le titre de cette icône qui est le nom de la ville */
 .secondary > span {
-  padding: 1rem 2rem; /*écarts de remplissage sur les quatre côtés d'un élément*/
+  padding: 1rem 2rem; 
   display: block;
   margin: 0.5rem 0;
 }
 
-/* lorsque la souris survole les noms de ville, la couleur d'arrière-plan change en gris. */
 .secondary > span:hover {
   background-color: #ddd;
 }
 
-/* une helper class qui cache un élément */
 .hidden {
   opacity: 0;
 }
 
-/* une helper class qui montre un élément dans le laps de temps de 1s */
 .show {
   opacity: 1;
   transition: all linear 0.2s;
 }
 
-/* désactiver le soulignement pour les liens actifs et visités*/
 a,
 a:active,
 a:visited {
@@ -178,11 +141,8 @@ a:visited {
   color: black;
 }
 
-/* style pour les icones des réseaux */
 .fa {
   padding: 20px;
-  /* font-size: 30px; */
-  /* width: 20px; */
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -218,7 +178,7 @@ a:visited {
 .background {
   background: url("../images/background.jpg");
   background-position: center;
-  /* background-size cover s'assure que l'image d'arrière-plan couvre tout l'élément */
   background-size: cover;
   background-repeat: no-repeat;
 }
+
