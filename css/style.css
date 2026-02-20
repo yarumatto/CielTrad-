@@ -166,9 +166,9 @@ body {
   transition: all linear 0.2s;
 }
 
-a,
-a:active,
-a:visited {
+a:not(.main-item),
+a:not(.main-item):active,
+a:not(.main-item):visited {
   text-decoration: none;
   color: black;
 }
@@ -213,6 +213,7 @@ a:visited {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 
 
