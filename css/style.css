@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -13,13 +14,14 @@ body {
   flex-direction: column;
   align-items: center;
 
-  display: flex; /* ← AJOUTÉ POUR SUPPORT FLEX */
 
   background-image: url("../images/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 100vh; 
+  overflow: auto;
 }
 
 .flex {
@@ -72,8 +74,19 @@ body {
   margin: 2rem 0;
 }
 
-/* LES ANCIENS bottom* supprimés */
-  
+.bottom {
+  position: absolute;
+  bottom: 8rem;
+}
+.bottom-more {
+  position: absolute;
+  bottom: 5rem;
+}
+.bottom-more-more{
+  position: absolute;
+  bottom: 2rem;
+}
+
 .main-item {
   display: inline-block;
   margin: 100px 70px;               /* espacement original */
@@ -206,20 +219,14 @@ a:not(.main-item):visited {
   color: white !important;
 }
 
-/* --- AJOUT : Nouveau système des éléments en bas --- */
 
-.bottom-container {
-  margin-top: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  padding-bottom: 20px;
-}
 
-.bottom,
-.bottom-more,
-.bottom-more-more {
-  position: static !important;
-}
+
+
+
+
+
+
+
+
 
