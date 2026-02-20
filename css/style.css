@@ -20,8 +20,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh; 
-  overflow: auto;
 }
 
 .flex {
@@ -224,3 +222,4 @@ a:not(.main-item):visited {
 .bottom-more-more {
   position: static !important;
 }
+
