@@ -214,6 +214,11 @@ a:not(.main-item):visited {
   background-repeat: no-repeat;
 }
 
+.main-item,
+.main-item * {
+  color: white !important;
+}
+
 
 
 
