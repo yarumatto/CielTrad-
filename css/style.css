@@ -83,7 +83,7 @@ body {
   bottom: 5rem;
 }
 .bottom-more-more{
-  position: static;
+  position: fixed;
   bottom: 2rem;
 }
 
@@ -218,6 +218,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
