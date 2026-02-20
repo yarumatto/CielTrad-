@@ -75,15 +75,15 @@ body {
 }
 
 .bottom {
-  position: absolute;
+  position: static;
   bottom: 8rem;
 }
 .bottom-more {
-  position: absolute;
+  position: static;
   bottom: 5rem;
 }
 .bottom-more-more{
-  position: absolute;
+  position: static;
   bottom: 2rem;
 }
 
@@ -218,6 +218,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
