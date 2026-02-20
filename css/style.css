@@ -95,7 +95,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   vertical-align: top;
-  color: white;
+  color: white !important;
 
   /* Style bouton */
   background: rgba(0, 0, 0, 0.65);   /* sombre et propre */
@@ -213,6 +213,7 @@ a:visited {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 
 
