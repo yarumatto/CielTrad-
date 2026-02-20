@@ -20,7 +20,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 100vh; 
+  height: 100vh; 
   overflow: auto;
 }
 
@@ -218,6 +218,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
