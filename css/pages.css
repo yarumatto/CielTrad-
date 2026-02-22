@@ -80,4 +80,10 @@ p {
   color: #555;
 }
 
+@media (max-width: 768px) {
+  .city-name {
+    display: none;
+  }
+}
+
 
