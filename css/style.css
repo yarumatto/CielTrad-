@@ -88,7 +88,7 @@ body {
 }
 
 .main-item {
-  display: block;
+  display: inline-block;
   margin: 100px 70px;               /* espacement original */
   cursor: pointer;
   font-size: 18px;
@@ -218,6 +218,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
