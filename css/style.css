@@ -88,7 +88,7 @@ body {
 }
 
 .main-item {
-  display: inline-block;
+  display: block;
   margin: 100px 70px;               /* espacement original */
   cursor: pointer;
   font-size: 18px;
@@ -96,6 +96,8 @@ body {
   font-weight: 800;
   vertical-align: top;
   color: white !important;
+  width: 100%;
+  height: 100%;
 
   /* Style bouton */
   background: rgba(0, 0, 0, 0.65);   /* sombre et propre */
@@ -218,6 +220,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
