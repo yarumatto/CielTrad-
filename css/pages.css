@@ -82,9 +82,19 @@ p {
 @media (max-width: 768px) {
   .content {
     position: static;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
+    width: calc(100% - 10px); /* empêche tout dépassement */
+    margin: 0 auto;
+    padding: 10px 10px; /* encore un peu réduit */
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    width: calc(100% - 10px);
+    margin-left: 0;
+    padding-right: 10px;
+    border-right: none;
   }
 }
 
@@ -96,6 +106,7 @@ p {
     display: none;
   }
 }
+
 
 
 
