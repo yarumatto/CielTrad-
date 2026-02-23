@@ -101,7 +101,14 @@ p {
   body {
     overflow-x: hidden; /* sécurité absolue */
   }
+  .city-name { 
+    display: none;
+  }
+  .youtube {
+    display: none;
+  }
 }
+
 
 
 
