@@ -57,8 +57,8 @@ body {
   transform: translateX(-50%) translateY(-50%);
 }
 
-.title > img {
-  height: 100px;
+.title img {
+  max-height: 100px;
   width: auto;
 }
 .title-img {
@@ -218,6 +218,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
