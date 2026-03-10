@@ -11,7 +11,6 @@ body {
   margin: 0px auto;
   font-size: 16px;
 
-  display: flex;
   flex-direction: column;
   align-items: center;
 
@@ -21,7 +20,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 100vh; 
   overflow: auto;
 }
 
@@ -219,6 +217,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
