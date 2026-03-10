@@ -58,7 +58,7 @@ body {
 }
 
 .title img {
-  max-height: 100px;
+  max-height: 140px;
   width: auto;
 }
 .title-img {
@@ -218,6 +218,7 @@ a:not(.main-item):visited {
 .main-item * {
   color: white !important;
 }
+
 
 
 
