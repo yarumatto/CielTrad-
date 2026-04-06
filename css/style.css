@@ -110,6 +110,7 @@ body {
   display: inline-block;
   margin: 100px 70px;
   vertical-align: top;
+  text-decoration: none;
 }
 
 .main-item a {
