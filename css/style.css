@@ -304,7 +304,7 @@ a:not(.main-item):visited {
 
   .title > img:not(.loader),
   .title-img {
-    height: auto;
+    height: 80px;
   }
 
   nav {
