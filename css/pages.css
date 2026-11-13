@@ -101,7 +101,7 @@ p {
   }
 
   body {
-    overflow-x: hidden; /* sécurité absolue */
+    overflow-x: hidden;
   }
   .city-name { 
     display: none;
