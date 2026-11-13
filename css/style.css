@@ -115,7 +115,7 @@ body {
   font-weight: 800;
   vertical-align: top;
   color: white !important;
-  text-decoration: none; /* ← ajouté */
+  text-decoration: none;
 
   background: rgba(0, 0, 0, 0.65);
   padding: 25px 35px;
@@ -149,7 +149,7 @@ body {
     margin: 30px 20px;
     padding: 18px 20px;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.75); /* plus opaque pour lisibilité */
+    background: rgba(0, 0, 0, 0.75); 
   }
 }
 
@@ -235,10 +235,9 @@ a:not(.main-item):visited {
   color: white !important;
 }
 
-/* Bloc d'introduction de l'accueil */
 .intro {
   position: relative;
-  z-index: 5; /* reste au-dessus du divider et des icônes si le synopsis est ouvert */
+  z-index: 5;
   display: flex;
   align-items: flex-start;
   gap: 18px;
@@ -260,7 +259,7 @@ a:not(.main-item):visited {
 }
 
 .intro-img {
-  width: 56px; /* adapte à la taille réelle du fichier pour qu'il reste net */
+  width: 56px;
   height: 56px;
   flex-shrink: 0;
   object-fit: contain;
